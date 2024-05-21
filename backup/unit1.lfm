@@ -1,0 +1,227 @@
+object Form1: TForm1
+  Left = 468
+  Height = 327
+  Top = 462
+  Width = 308
+  Caption = 'Калькулятор'
+  ClientHeight = 327
+  ClientWidth = 308
+  Color = 15242218
+  DesignTimePPI = 144
+  LCLVersion = '3.2.0.0'
+  object Edit1: TEdit
+    Left = 12
+    Height = 41
+    Top = 12
+    Width = 288
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -29
+    Font.Name = 'Book Antiqua'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentBidiMode = False
+    ParentFont = False
+    TabOrder = 0
+    OnChange = Edit1Change
+  end
+  object But1: TButton
+    Left = 12
+    Height = 39
+    Top = 216
+    Width = 48
+    Caption = '1'
+    Color = 12615935
+    TabOrder = 1
+    OnClick = ClickBut
+  end
+  object But2: TButton
+    Left = 72
+    Height = 39
+    Top = 216
+    Width = 48
+    Caption = '2'
+    TabOrder = 2
+    OnClick = ClickBut
+  end
+  object But3: TButton
+    Left = 132
+    Height = 39
+    Top = 216
+    Width = 48
+    Caption = '3'
+    TabOrder = 3
+    OnClick = ClickBut
+  end
+  object ButMinus: TButton
+    Left = 192
+    Height = 39
+    Top = 216
+    Width = 48
+    Caption = '-'
+    TabOrder = 4
+    OnClick = ClickZnak
+  end
+  object ButZero: TButton
+    Left = 12
+    Height = 39
+    Top = 264
+    Width = 108
+    Caption = '0'
+    TabOrder = 5
+    OnClick = ClickBut
+  end
+  object ButComma: TButton
+    Left = 132
+    Height = 39
+    Top = 264
+    Width = 48
+    Caption = ','
+    TabOrder = 6
+    OnClick = ClickBut
+  end
+  object ButPlus: TButton
+    Left = 192
+    Height = 39
+    Top = 264
+    Width = 48
+    Caption = '+'
+    TabOrder = 7
+    OnClick = ClickZnak
+  end
+  object ButEvenly: TButton
+    Left = 252
+    Height = 93
+    Top = 210
+    Width = 48
+    Caption = '='
+    TabOrder = 8
+    OnClick = ButEvenlyClick
+  end
+  object ButFraction: TButton
+    Left = 252
+    Height = 39
+    Top = 168
+    Width = 48
+    Caption = '1/x'
+    TabOrder = 9
+    OnClick = ButFractionClick
+  end
+  object ButMultiplication: TButton
+    Left = 192
+    Height = 39
+    Top = 168
+    Width = 48
+    Caption = '*'
+    TabOrder = 10
+    OnClick = ClickZnak
+  end
+  object But6: TButton
+    Left = 132
+    Height = 39
+    Top = 168
+    Width = 48
+    Caption = '6'
+    TabOrder = 11
+    OnClick = ClickBut
+  end
+  object But5: TButton
+    Left = 72
+    Height = 39
+    Top = 168
+    Width = 48
+    Caption = '5'
+    TabOrder = 12
+    OnClick = ClickBut
+  end
+  object But4: TButton
+    Left = 12
+    Height = 39
+    Top = 168
+    Width = 48
+    Caption = '4'
+    TabOrder = 13
+    OnClick = ClickBut
+  end
+  object But7: TButton
+    Left = 12
+    Height = 39
+    Top = 120
+    Width = 48
+    Caption = '7'
+    TabOrder = 14
+    OnClick = ClickBut
+  end
+  object But8: TButton
+    Left = 72
+    Height = 39
+    Top = 120
+    Width = 48
+    Caption = '8'
+    TabOrder = 15
+    OnClick = ClickBut
+  end
+  object But9: TButton
+    Left = 132
+    Height = 39
+    Top = 120
+    Width = 48
+    Caption = '9'
+    TabOrder = 16
+    OnClick = ClickBut
+  end
+  object ButDivision: TButton
+    Left = 192
+    Height = 39
+    Top = 120
+    Width = 48
+    Caption = '/'
+    TabOrder = 17
+    OnClick = ClickZnak
+  end
+  object ButSquare: TButton
+    Left = 252
+    Height = 39
+    Top = 120
+    Width = 48
+    Caption = 'x²'
+    TabOrder = 18
+    OnClick = ButSquareClick
+  end
+  object ButRoot: TButton
+    Left = 252
+    Height = 39
+    Top = 72
+    Width = 48
+    Caption = '√'
+    TabOrder = 19
+    OnClick = ButRootClick
+  end
+  object ButC: TButton
+    Left = 192
+    Height = 39
+    Top = 72
+    Width = 48
+    Caption = 'c'
+    TabOrder = 20
+    OnClick = ButCClick
+  end
+  object ButCe: TButton
+    Left = 132
+    Height = 39
+    Top = 72
+    Width = 48
+    Caption = 'ce'
+    TabOrder = 21
+    OnClick = ButCeClick
+  end
+  object ButBack: TButton
+    Left = 12
+    Height = 39
+    Top = 72
+    Width = 108
+    Caption = '←'
+    TabOrder = 22
+    OnClick = ButBackClick
+  end
+end
